@@ -47,7 +47,7 @@ function Index() {
               VYGAA
             </span>
           </div>
-          <span className="text-sm font-medium text-stone-500">Vijayawada, IN</span>
+          <span className="text-sm font-medium text-stone-500">Coming soon</span>
         </header>
 
         <main className="relative z-10 flex flex-1 flex-col items-center justify-center py-10 text-center">
@@ -64,7 +64,7 @@ function Index() {
 
           <p className="anim mt-6 max-w-[46ch] text-pretty text-base leading-relaxed text-stone-600 [animation-delay:0.25s] sm:text-lg">
             Book a helping person when you need one — lifting, carrying, delivery help and
-            small moves in Vijayawada. VYGAA is coming soon.
+            small moves. VYGAA is coming soon.
           </p>
 
           <div className="anim mt-9 flex flex-col items-center gap-3 [animation-delay:0.35s] sm:flex-row sm:gap-4">
