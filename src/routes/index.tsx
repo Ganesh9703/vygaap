@@ -50,12 +50,6 @@ function Index() {
         </header>
 
         <main className="relative z-10 flex flex-1 flex-col items-center justify-center py-10 text-center">
-          <div className="anim mb-7 inline-flex items-center gap-2 rounded-full bg-brand/10 px-3.5 py-1.5 ring-1 ring-brand/20 [animation-delay:0.05s]">
-            <span className="pulse-dot size-1.5 rounded-full bg-brand" />
-            <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">
-              Coming Soon
-            </span>
-          </div>
 
           <h1 className="anim max-w-[24ch] text-balance font-display text-[2.75rem] font-semibold leading-[1.05] tracking-tight text-stone-900 [animation-delay:0.15s] sm:text-6xl md:text-[4.25rem]">
             Need an extra pair of hands?
