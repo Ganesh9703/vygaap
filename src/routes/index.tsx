@@ -8,13 +8,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "VYGAA is launching soon in Vijayawada. Book a nearby helping person for lifting, carrying, delivery help and small moving tasks.",
+          "VYGAA is launching soon. Book a nearby helping person for lifting, carrying, delivery help and small moving tasks.",
       },
       { property: "og:title", content: "VYGAA — Extra hands. On demand." },
       {
         property: "og:description",
-        content:
-          "Book a helping person when you need one. VYGAA is coming soon to Vijayawada.",
+        content: "Book a helping person when you need one. VYGAA is coming soon.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
