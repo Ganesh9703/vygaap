@@ -46,7 +46,6 @@ function Index() {
               VYGAA
             </span>
           </div>
-          <span className="text-sm font-medium text-stone-500">Coming soon</span>
         </header>
 
         <main className="relative z-10 flex flex-1 flex-col items-center justify-center py-10 text-center">
