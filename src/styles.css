@@ -63,7 +63,8 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: oklch(0.972 0.014 84.6);
+
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
@@ -141,4 +142,58 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+/* VYGAA brand tokens */
+:root {
+  --brand: oklch(0.664 0.213 36.5);
+  --brand-foreground: oklch(0.99 0.005 90);
+  --cream: oklch(0.972 0.014 84.6);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Work Sans", system-ui, sans-serif;
+  --gradient-dawn: radial-gradient(120% 100% at 50% -10%, #ffd9b0 0%, #ffe9d0 30%, #fbf6ee 72%);
+  --gradient-halo: radial-gradient(circle, rgba(255, 138, 61, 0.2) 0%, transparent 70%);
+  --shadow-warm: 0 40px 80px -40px rgba(120, 50, 10, 0.45);
+}
+
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-cream: var(--cream);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes softpulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 77, 28, 0.28);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(255, 77, 28, 0);
+  }
+}
+
+@utility anim {
+  opacity: 0;
+  animation: fadeup 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@utility pulse-dot {
+  animation: softpulse 2.6s ease-in-out infinite;
+}
+
+body {
+  font-family: var(--font-body);
 }
